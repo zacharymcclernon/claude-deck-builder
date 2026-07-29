@@ -1,0 +1,33 @@
+{
+  "name": "deck-builder",
+  "version": "1.0.0",
+  "description": "Build good-looking PowerPoint decks from code with pptxgenjs — any kind of deck, re-skinnable to any brand from one config block.",
+  "license": "MIT",
+  "author": "zacharymcclernon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharymcclernon/claude-deck-builder.git"
+  },
+  "keywords": [
+    "pptxgenjs",
+    "powerpoint",
+    "pptx",
+    "slides",
+    "deck",
+    "presentation",
+    "claude",
+    "claude-code",
+    "skill"
+  ],
+  "scripts": {
+    "build": "node assets/deck_template.js",
+    "example:onboarding": "node examples/onboarding_deck.js",
+    "example:models": "node examples/claude_models_deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
