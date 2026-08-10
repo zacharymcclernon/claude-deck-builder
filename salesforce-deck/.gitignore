@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts — the .js scripts are the source of truth; decks are generated
+*.pptx
+
+# OS / editor cruft
+.DS_Store
+*.log

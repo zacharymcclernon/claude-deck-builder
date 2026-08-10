@@ -1,0 +1,28 @@
+{
+  "name": "salesforce-deck",
+  "version": "1.0.0",
+  "description": "Build on-brand Salesforce PowerPoint decks from code with pptxgenjs, matching the Salesforce Corporate Template 2026. Brand-locked: fixed palette, fonts, canvas, rounded cards, blue shadow, and logo.",
+  "license": "MIT",
+  "keywords": [
+    "pptxgenjs",
+    "powerpoint",
+    "pptx",
+    "salesforce",
+    "brand",
+    "deck",
+    "presentation",
+    "claude",
+    "claude-code",
+    "skill"
+  ],
+  "scripts": {
+    "build": "node assets/deck_template.js",
+    "example:qbr": "node examples/qbr_deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

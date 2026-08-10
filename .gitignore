@@ -11,3 +11,8 @@ package-lock.json
 # OS / editor cruft
 .DS_Store
 *.log
+
+# Generated decks built FROM the skill — these hold real, often confidential
+# content (names, internal-only speaker notes). The skill is the shareable part;
+# decks built with it are not. Keep them out of the repo.
+/forward-deployed-analytics/
